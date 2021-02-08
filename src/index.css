@@ -1,0 +1,80 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 60%;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.field {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.field label {
+  margin-bottom: 5px;
+}
+
+.field input {
+  width: 80%;
+  padding: 5px;
+}
+
+
+
+.seo {
+  width: 100%;
+}
+.seoInner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.seoInner div{
+  width: 100%;
+}
+
+.form h2 {
+  width: 100%;
+}
+
+.error{
+  color: darkred;
+  width: 100%;
+}
+
+.imgField {
+  flex-direction: unset;
+  justify-content: space-between;
+}
+
+.coverImg {
+  width: 100%;
+}
